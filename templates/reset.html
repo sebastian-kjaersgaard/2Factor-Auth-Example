@@ -2,7 +2,6 @@
 {% import "bootstrap/wtf.html" as wtf %}
 
 {% block page_content %}
-    <h1>Login</h1>
+    <h1>Reset password</h1>
     {{ wtf.quick_form(form) }}
-    <p>Did you forget your password?<a href="{{ url_for('forgot') }}">Click here</a>.</p>
 {% endblock %}
